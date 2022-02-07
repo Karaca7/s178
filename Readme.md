@@ -8,6 +8,8 @@ It has been revived with Parcel v1.
 
 ## Folder structure
 
+
+```bash
 my-app/
 ├─ dist/
 │  ├─ data.json
@@ -21,14 +23,10 @@ my-app/
 │  ├─ index.html
 │  ├─ app.js
 ├─ .gitignore
-new_folder/
-├─ img/
-├─ music/
-├─ css/
-new_folder/
-new_folder/
-new_folder/
-package.json
+├─ package.json
+
+```
+
 
 
 -- Because so easy and zero configuration.
