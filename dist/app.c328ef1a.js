@@ -11227,7 +11227,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var _default = window.$ = window.jQuery = _jquery.default;
 
 exports.default = _default;
-},{"jquery":"../node_modules/jquery/dist/jquery.js"}],"assets/img/burger.png":[function(require,module,exports) {
+},{"jquery":"../node_modules/jquery/dist/jquery.js"}],"assets/img/as.png":[function(require,module,exports) {
+module.exports = "/as.5f3ffc0a.png";
+},{}],"assets/img/burger.png":[function(require,module,exports) {
 module.exports = "/burger.46706a93.png";
 },{}],"assets/img/burgericon.png":[function(require,module,exports) {
 module.exports = "/burgericon.2f9fa6f8.png";
@@ -11239,34 +11241,32 @@ module.exports = "/cola.80e2d7fd.png";
 module.exports = "/donat.78ef7009.png";
 },{}],"assets/img/hotdog.png":[function(require,module,exports) {
 module.exports = "/hotdog.94d60cda.png";
-},{}],"assets/img/as.png":[function(require,module,exports) {
-module.exports = "/as.5f3ffc0a.png";
-},{}],"assets/img/icon.png":[function(require,module,exports) {
-module.exports = "/icon.ffc05a48.png";
 },{}],"assets/img/lemonade.png":[function(require,module,exports) {
 module.exports = "/lemonade.266cadac.png";
+},{}],"assets/img/icon.png":[function(require,module,exports) {
+module.exports = "/icon.ffc05a48.png";
 },{}],"assets/img/patato.png":[function(require,module,exports) {
 module.exports = "/patato.c9bd0595.png";
-},{}],"assets/img/pricetag.png":[function(require,module,exports) {
-module.exports = "/pricetag.c96c28fc.png";
 },{}],"assets/img/sand.png":[function(require,module,exports) {
 module.exports = "/sand.5f921395.png";
+},{}],"assets/img/pricetag.png":[function(require,module,exports) {
+module.exports = "/pricetag.c96c28fc.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
+  "as": require("./as.png"),
   "burger": require("./burger.png"),
   "burgericon": require("./burgericon.png"),
   "chickenarm": require("./chickenarm.png"),
   "cola": require("./cola.png"),
   "donat": require("./donat.png"),
   "hotdog": require("./hotdog.png"),
-  "as": require("./as.png"),
-  "icon": require("./icon.png"),
   "lemonade": require("./lemonade.png"),
+  "icon": require("./icon.png"),
   "patato": require("./patato.png"),
-  "pricetag": require("./pricetag.png"),
-  "sand": require("./sand.png")
+  "sand": require("./sand.png"),
+  "pricetag": require("./pricetag.png")
 };
-},{"./burger.png":"assets/img/burger.png","./burgericon.png":"assets/img/burgericon.png","./chickenarm.png":"assets/img/chickenarm.png","./cola.png":"assets/img/cola.png","./donat.png":"assets/img/donat.png","./hotdog.png":"assets/img/hotdog.png","./as.png":"assets/img/as.png","./icon.png":"assets/img/icon.png","./lemonade.png":"assets/img/lemonade.png","./patato.png":"assets/img/patato.png","./pricetag.png":"assets/img/pricetag.png","./sand.png":"assets/img/sand.png"}],"app.js":[function(require,module,exports) {
+},{"./as.png":"assets/img/as.png","./burger.png":"assets/img/burger.png","./burgericon.png":"assets/img/burgericon.png","./chickenarm.png":"assets/img/chickenarm.png","./cola.png":"assets/img/cola.png","./donat.png":"assets/img/donat.png","./hotdog.png":"assets/img/hotdog.png","./lemonade.png":"assets/img/lemonade.png","./icon.png":"assets/img/icon.png","./patato.png":"assets/img/patato.png","./sand.png":"assets/img/sand.png","./pricetag.png":"assets/img/pricetag.png"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./import-jquery.js");
@@ -11346,7 +11346,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63356" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49925" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
