@@ -6,6 +6,31 @@ It has been revived with Parcel v1.
 
 ## Why Parcel ???
 
+## Folder structure
+
+my-app/
+├─ dist/
+│  ├─ data.json
+├─ node_modules/
+├─ src/
+│  ├─ assets/
+│  │  ├─ img/
+│  │  ├─ music/
+│  │  ├─ css/
+│  ├─ data.json
+│  ├─ index.html
+│  ├─ app.js
+├─ .gitignore
+new_folder/
+├─ img/
+├─ music/
+├─ css/
+new_folder/
+new_folder/
+new_folder/
+package.json
+
+
 -- Because so easy and zero configuration.
 
 ## Installation
