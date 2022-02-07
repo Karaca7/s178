@@ -1,10 +1,10 @@
 {
-  "obj": { "id": 1, "ad": "Patato", "url": "patato" },
-  "obj2": { "id": 2, "ad": "Hotdog", "url": "hotdog" },
-  "obj3": { "id": 3, "ad": "Donut", "url": "donat" },
-  "obj4": { "id": 4, "ad": "Burger", "url": "burger" },
-  "obj5": { "id": 5, "ad": "Sandwich", "url": "sand" },
-  "obj6": { "id": 6, "ad": "Chicken", "url": "chickenarm" },
-  "obj7": { "id": 7, "ad": "Cola", "url": "cola" },
-  "obj8": { "id": 8, "ad": "Lemonade", "url": "lemonade" }
+  "obj": { "id": 1, "ad": "Patato", "url": "patato", "price": "2$" },
+  "obj2": { "id": 2, "ad": "Hotdog", "url": "hotdog", "price": "1$" },
+  "obj3": { "id": 3, "ad": "Donut", "url": "donat", "price": "1$" },
+  "obj4": { "id": 4, "ad": "Burger", "url": "burger", "price": "4$" },
+  "obj5": { "id": 5, "ad": "Sandwich", "url": "sand", "price": "2$" },
+  "obj6": { "id": 6, "ad": "Chicken", "url": "chickenarm", "price": "3$" },
+  "obj7": { "id": 7, "ad": "Cola", "url": "cola", "price": "3$" },
+  "obj8": { "id": 8, "ad": "Lemonade", "url": "lemonade", "price": "1$" }
 }

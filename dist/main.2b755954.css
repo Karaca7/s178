@@ -29,14 +29,55 @@ body {
   animation-iteration-count: 1;
   box-sizing: border-box;
 }
+.price > p {
+  position: absolute;
+  color: white;
+  left: 48vw;
+  top: 64vh;
+  margin: 0px;
+  /* font-size: 150px; */
+  font-size: 3vw;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation-name: hareket2;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  box-sizing: border-box;
+  /* visibility: hidden; */
+}
+
+.price > img {
+  position: absolute;
+  left: 46vw;
+  top: 60vh;
+  width: 8vw;
+  margin: 0px;
+  /* font-size: 150px; */
+
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation-name: hareket3;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  box-sizing: border-box;
+  z-index: -1;
+  /* visibility: hidden; */
+}
+
 .content > p {
   position: absolute;
   color: white;
-  left: 50%;
-  top: 50vh;
+  left: 55%;
+  top: 44vh;
   margin: 0px;
   /* font-size: 150px; */
-  font-size: 8vw;
+  font-size: 9vw;
   opacity: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,6 +100,29 @@ body {
   }
   30% {
     opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes hareket3 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 0.5;
   }
   50% {
     opacity: 0;

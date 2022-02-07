@@ -1,10 +1,50 @@
 {
-  "obj": { "id": 1, "ad": "Patato", "url": "./assets/img/patato" },
-  "obj2": { "id": 2, "ad": "Hotdog", "url": "./assets/img/hotdog.png" },
-  "obj3": { "id": 3, "ad": "Donut", "url": "./assets/img/donat.png" },
-  "obj4": { "id": 4, "ad": "Burger", "url": "./assets/img/burger.png" },
-  "obj5": { "id": 5, "ad": "Sandwich", "url": "./assets/img/sand.png" },
-  "obj6": { "id": 6, "ad": "Chicken", "url": "./assets/img/chickenarm.png" },
-  "obj7": { "id": 7, "ad": "Cola", "url": "./assets/img/cola.png" },
-  "obj8": { "id": 8, "ad": "Lemonade", "url": "./assets/img/lemonade.png" }
+  "obj": {
+    "id": 1,
+    "ad": "Patato",
+    "url": "./assets/img/patato",
+    "price": "12$"
+  },
+  "obj2": {
+    "id": 2,
+    "ad": "Hotdog",
+    "url": "./assets/img/hotdog.png",
+    "price": "12$"
+  },
+  "obj3": {
+    "id": 3,
+    "ad": "Donut",
+    "url": "./assets/img/donat.png",
+    "price": "12$"
+  },
+  "obj4": {
+    "id": 4,
+    "ad": "Burger",
+    "url": "./assets/img/burger.png",
+    "price": "12$"
+  },
+  "obj5": {
+    "id": 5,
+    "ad": "Sandwich",
+    "url": "./assets/img/sand.png",
+    "price": "12$"
+  },
+  "obj6": {
+    "id": 6,
+    "ad": "Chicken",
+    "url": "./assets/img/chickenarm.png",
+    "price": "12$"
+  },
+  "obj7": {
+    "id": 7,
+    "ad": "Cola",
+    "url": "./assets/img/cola.png",
+    "price": "12$"
+  },
+  "obj8": {
+    "id": 8,
+    "ad": "Lemonade",
+    "url": "./assets/img/lemonade.png",
+    "price": "12$"
+  }
 }
