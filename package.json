@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel  src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "jquery": "^3.6.0",
-    "jquery-ui-dist": "^1.13.0",
+    "jquery-ui-dist": "^1.13.0"
+  },
+  "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
 }

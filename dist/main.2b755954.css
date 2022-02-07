@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(/static/img/backgroundImg.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.meal > img {
+  position: relative;
+  /* height: 400px;
+  width: 400px; */
+
+  height: 40vh;
+  width: 25%;
+  top: 15vh;
+  margin: 0px;
+  margin-left: -28%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* visibility: hidden; */
+
+  animation-name: hareket;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  box-sizing: border-box;
+}
+.content > p {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50vh;
+  margin: 0px;
+  /* font-size: 150px; */
+  font-size: 8vw;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation-name: hareket2;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  box-sizing: border-box;
+}
+@keyframes hareket2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes hareket {
+  0% {
+    left: 2%;
+  }
+
+  30% {
+    left: 50%;
+  }
+  50% {
+    left: 50%;
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  90% {
+    left: 80%;
+    opacity: 0.2;
+  }
+
+  100% {
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -999999;
+  opacity: 1;
+}
+.iconwrap > img {
+  position: absolute;
+  width: 15%;
+}
+
+
+/*# sourceMappingURL=/main.2b755954.css.map */
