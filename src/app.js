@@ -2,6 +2,7 @@ import "./import-jquery.js";
 import icons from "./assets/img/*.png";
 
 $(() => {
+  document.getElementById("v").play();
   var liste = [];
   function getter() {
     //  ı can use pure ajax or axios , fetch
