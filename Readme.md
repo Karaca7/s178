@@ -52,6 +52,8 @@ npm i jquery-ui-dist --save-dev
 
 npm i parcel-bundler --save-dev
 
+npm i -D @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs2 --save-dev 
+
 // and running
 
 ```
