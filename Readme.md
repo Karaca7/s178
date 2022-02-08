@@ -6,6 +6,29 @@ It has been revived with Parcel v1.
 
 ## Why Parcel ???
 
+## Folder structure
+
+
+```bash
+my-app/
+├─ dist/
+│  ├─ data.json
+├─ node_modules/
+├─ src/
+│  ├─ assets/
+│  │  ├─ img/
+│  │  ├─ music/
+│  │  ├─ css/
+│  ├─ data.json
+│  ├─ index.html
+│  ├─ app.js
+├─ .gitignore
+├─ package.json
+
+```
+
+
+
 -- Because so easy and zero configuration.
 
 ## Installation
