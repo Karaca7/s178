@@ -4,10 +4,11 @@ This is a fictitious advertising promotion application for a fictitious company'
 
 It has been revived with Parcel v1.
 
-## Why Parcel ???
+## Pretty Note
+
+We can start the sound by clicking once on the screen or by moving the mouse. unaware of users ... :)
 
 ## Folder structure
-
 
 ```bash
 my-app/
@@ -26,8 +27,6 @@ my-app/
 ├─ package.json
 
 ```
-
-
 
 -- Because so easy and zero configuration.
 
@@ -62,6 +61,10 @@ for deploymnet ->  npm run build
 for development -> npm start
 
 ```
+
+## Why Parcel ???
+
+Because parcel gain time to you
 
 ## Note:
 
