@@ -11239,18 +11239,18 @@ module.exports = "/chickenarm.267102e8.png";
 module.exports = "/cola.80e2d7fd.png";
 },{}],"assets/img/donat.png":[function(require,module,exports) {
 module.exports = "/donat.78ef7009.png";
-},{}],"assets/img/hotdog.png":[function(require,module,exports) {
-module.exports = "/hotdog.94d60cda.png";
 },{}],"assets/img/icon.png":[function(require,module,exports) {
 module.exports = "/icon.ffc05a48.png";
+},{}],"assets/img/hotdog.png":[function(require,module,exports) {
+module.exports = "/hotdog.94d60cda.png";
 },{}],"assets/img/lemonade.png":[function(require,module,exports) {
 module.exports = "/lemonade.266cadac.png";
-},{}],"assets/img/patato.png":[function(require,module,exports) {
-module.exports = "/patato.c9bd0595.png";
 },{}],"assets/img/pricetag.png":[function(require,module,exports) {
 module.exports = "/pricetag.c96c28fc.png";
 },{}],"assets/img/sand.png":[function(require,module,exports) {
 module.exports = "/sand.5f921395.png";
+},{}],"assets/img/patato.png":[function(require,module,exports) {
+module.exports = "/patato.c9bd0595.png";
 },{}],"assets/img/*.png":[function(require,module,exports) {
 module.exports = {
   "as": require("./as.png"),
@@ -11259,14 +11259,14 @@ module.exports = {
   "chickenarm": require("./chickenarm.png"),
   "cola": require("./cola.png"),
   "donat": require("./donat.png"),
-  "hotdog": require("./hotdog.png"),
   "icon": require("./icon.png"),
+  "hotdog": require("./hotdog.png"),
   "lemonade": require("./lemonade.png"),
-  "patato": require("./patato.png"),
   "pricetag": require("./pricetag.png"),
-  "sand": require("./sand.png")
+  "sand": require("./sand.png"),
+  "patato": require("./patato.png")
 };
-},{"./as.png":"assets/img/as.png","./burgericon.png":"assets/img/burgericon.png","./burger.png":"assets/img/burger.png","./chickenarm.png":"assets/img/chickenarm.png","./cola.png":"assets/img/cola.png","./donat.png":"assets/img/donat.png","./hotdog.png":"assets/img/hotdog.png","./icon.png":"assets/img/icon.png","./lemonade.png":"assets/img/lemonade.png","./patato.png":"assets/img/patato.png","./pricetag.png":"assets/img/pricetag.png","./sand.png":"assets/img/sand.png"}],"app.js":[function(require,module,exports) {
+},{"./as.png":"assets/img/as.png","./burgericon.png":"assets/img/burgericon.png","./burger.png":"assets/img/burger.png","./chickenarm.png":"assets/img/chickenarm.png","./cola.png":"assets/img/cola.png","./donat.png":"assets/img/donat.png","./icon.png":"assets/img/icon.png","./hotdog.png":"assets/img/hotdog.png","./lemonade.png":"assets/img/lemonade.png","./pricetag.png":"assets/img/pricetag.png","./sand.png":"assets/img/sand.png","./patato.png":"assets/img/patato.png"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./import-jquery.js");
@@ -11346,7 +11346,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65366" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57884" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
