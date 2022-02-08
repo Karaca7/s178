@@ -1,4 +1,4 @@
-# Ommo My Challenge
+# Omma My Challenge
 
 This is a fictitious advertising promotion application for a fictitious company's website.
 
